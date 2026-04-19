@@ -1,8 +1,3 @@
-#ifdef _WIN32
-#include <io.h>
-#define mkdir(path, mode) mkdir(path)
-#endif
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
